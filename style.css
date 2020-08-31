@@ -1,0 +1,18 @@
+body {
+	background-color: #075384;
+}
+
+#content {
+	text-align: center;
+	padding-top: 5%;
+}
+
+img {
+	width: 30%;
+	border: 2px solid black;
+	margin: 2% 0 2% 0;
+}
+
+p {
+	font-size: 18px;
+}
