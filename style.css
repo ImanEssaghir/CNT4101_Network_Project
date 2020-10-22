@@ -230,8 +230,26 @@ body {
     top: 0;
 }
 
-.personSection1,
-.personSection3 {
+.personalSection,
+.literatureSection,
+.reviewsSection {
     background-color: #0984e3;
     color: #fff;
 }
+
+.contactSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
+
+#dropdown-items {
+    background-color: #0984e3;
+    color: #fff;
+}
+
+#item:hover {
+    background-color: #e6f2ff;
+    color: #000;
+}
+
