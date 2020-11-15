@@ -260,3 +260,13 @@ body {
   text-align: center;
 }
 
+.gallery img{
+    transition: 1s;
+    padding: 10px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
