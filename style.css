@@ -261,6 +261,10 @@ body {
 }
 
 .gallery img{
+    width: 30%;
+	float: left;
+	margin: 1.66%;
+	height: 250px;
     transition: 1s;
     padding: 10px;
 }
