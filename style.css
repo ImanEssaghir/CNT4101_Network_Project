@@ -260,11 +260,12 @@ body {
   text-align: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .gallery img{
-    width: 30%;
-	float: left;
-	margin: 1.66%;
-	height: 250px;
     transition: 1s;
     padding: 10px;
 }
