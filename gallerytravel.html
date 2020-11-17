@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
 </head>
 <body>
 
@@ -104,21 +104,29 @@
 	</nav>
 	<div id="experiences" class="section">
 
-		<div class="container">
+	<div class="container">
 
-				<h4 class="experiencesHeading">Gallery: Travel</h4>
-				<hr> 
-				<div class="gallery">
-				  <a href= images/Poland1.jpg> <img src="images/Poland1.jpg" width="350px" height="200px"> </a>
-				  <a href= images/Poland2.jpg> <img src="images/Poland2.jpg" width="350px" height="200px"> </a>
-				  <a href= images/Poland3.jpg> <img src="images/Poland3.jpg" width="350px" height="200px"> </a>
-			  	<a href= images/Poland4.jpg> <img src="images/Poland4.jpg" width="350px" height="200px"> </a>
-				  <a href= images/Poland5.jpg> <img src="images/Poland5.jpg" width="350px" height="200px"> </a>
-				  <a href= images/Poland6.jpg> <img src="images/Poland6.jpg" width="350px" height="200px"> </a>
-        
-			 </div>
-
+		<div id="lightgallery">
+			<a href="img/Poland1.jpg">
+				<img src="img/Poland1-thumbnail.jpg" />
+			</a>
+			<a href="img/Poland2.jpg">
+				<img src="img/Poland2-thumbnail.jpg" />
+			</a>
+			<a href="img/Poland3.jpg">
+				<img src="img/Poland3.jpg" />
+			</a>
+			<a href="img/Poland4.jpg">
+				<img src="img/Poland4.jpg" />
+			</a>
+			<a href="img/Poland5.jpg">
+				<img src="img/Poland5.jpg" />
+			</a>
+			<a href="img/Poland6.jpg">
+				<img src="img/Poland6.jpg" />
+			</a>
 		</div>
+	</div>
 
 		<footer class="footerSection">
 
@@ -131,7 +139,21 @@
 
 		</footer>
 
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+	<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+	<script src="js/lightgallery.js"></script>
+
+	<!-- lightgallery plugins -->
+	<script src="js/lg-thumbnail.js"></script>
+	<script src="js/lg-fullscreen.js"></script>
+	<script src="js/script.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
