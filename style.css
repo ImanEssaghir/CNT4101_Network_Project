@@ -260,7 +260,11 @@ body {
   text-align: center;
 }
 
-img {
+img{
+    margin: 1%;
+}
+
+.gallery img {
    	width: 330px;
 	height: 250px;
 	margin: 1.66%;
