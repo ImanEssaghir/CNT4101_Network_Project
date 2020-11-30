@@ -264,6 +264,13 @@ img{
     margin: 1%;
 }
 
+.aboutImg {
+    width: 325px;
+    height: 250px;
+    float: left;
+    margin: 0px 50px 0px 0px;
+}
+
 .gallery img {
    	width: 330px;
 	height: 250px;
